@@ -4,11 +4,11 @@ Demo Spring Boot Application powered by Kotlin and Spring WebFlux demonstrating 
 
 ## How to run
 
-Build and run like this:
+To build and run, navigate to the respective subdirectory, then:
 
 ```
 mvn clean package
-java -jar target/reactive-rest*.jar
+java -jar target/<reactive-whatever>.jar
 ```
 
 Then perform your GETs and POSTs against localhost:8080.
